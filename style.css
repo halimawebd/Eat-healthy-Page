@@ -1,40 +1,88 @@
-
-body{
+body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-h1{
-    font-size: 30px;
-    padding-top: 100px;
-    
+
+h1 {
+    font-size: 50px;
+
+
+
+
 }
-.orange-color{
+
+.orange-color {
     color: orange;
 }
-section{
+
+.flexible-container {
     display: flex;
-}
-.half-width img{
-   width: 100%; 
-}
-.half-width{
-    width: 80%;
+    margin-bottom: 100px;
     padding-left: 5%;
 }
-.link-button{
+
+.half-width img {
+    width: 100%;
+}
+
+.half-width {
+    width: 80%;
+    padding-left: 5%;
+
+}
+
+.link-button {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     padding: 10px 40px;
+    padding-top: 10px;
     color: white;
     font-weight: 700;
-    border-radius: 5px;
-   
+    border-radius: 100px;
+    margin-top: 40px;
+    display: block;
+    width: 100px;
+    height: 30px;
 }
-.about-me img{
-width: 140%;
 
+.top-banner {
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.about-me{
-    padding-left: 16%;
-    padding-top: 20px;
+
+.recipies-food {
+    text-align: center;
+}
+
+.experince-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.experince-areia {
+
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 60px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.footer {
+    text-align: center;
+    box-shadow: 10px 10px 40px;
+    padding-bottom: 50px;
+    color: white;
+    background-color: black;
+}
+
+.fresh {
+    color: gray;
 }
